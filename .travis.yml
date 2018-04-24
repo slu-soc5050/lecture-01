@@ -1,0 +1,13 @@
+language: r
+sudo: false
+cache: false
+
+r:
+  - oldrel
+  - release
+
+os:
+  - osx
+
+script:
+  - Rscript -e "rmarkdown::render('examples/lecture-01.Rmd')"

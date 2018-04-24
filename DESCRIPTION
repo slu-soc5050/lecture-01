@@ -1,0 +1,21 @@
+Package: lecture-01
+Title: SOC 4015/5050 - Lecture 01 - Course Introduction
+Version: 18.1.0.9000
+Authors@R: person("Christopher", "Prener", email = "chris.prener@slu.edu",
+                  role = c("aut", "cre"))
+Description: This is the repository for Lecture 01 of the Saint Louis University
+    course SOC 4015/5050 - Quantitative Analysis. This lecture introduces core
+    concepts related to analysis development, reproducibility, and quantitative
+    research.
+Depends: R (>= 3.4)
+License: CC-BY-SA-4.0 + LICENSE
+Web: https://slu-soc5050.github.io
+URL: https://github.com/slu-soc5050/lecture-01
+BugReports: https://github.com/slu-soc5050/lecture-01/issues
+Imports:
+    here,
+    knitr,
+    rmarkdown,
+    testDriveR
+Remotes:
+    chris-prener/testDriveR
