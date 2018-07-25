@@ -1,6 +1,6 @@
 lecture-01 <img src="https://slu-soc5050.github.io/images/logo.png" align="right" />
 ===========================================================
-[![](https://img.shields.io/badge/semester-fall%202018-yellow.svg)](https://github.com/slu-soc5050/lecture-01)
+[![](https://img.shields.io/badge/semester-fall%202018-orange.svg)](https://github.com/slu-soc5050/lecture-01)
 [![](https://img.shields.io/badge/release-draft-red.svg)](https://github.com/slu-soc5050/lecture-01)
 [![](https://img.shields.io/github/release/slu-soc5050/lecture-01.svg?label=version)](https://github.com/slu-soc5050/lecture-01/releases)
 [![](https://img.shields.io/github/last-commit/slu-soc5050/lecture-01.svg)](https://github.com/slu-soc5050/lecture-01/commits/master)
