@@ -9,3 +9,6 @@
     * Add `.travis.yml` and `appveyor.yml`, but CI is not turned on for this repo
     * Add `DESCRIPTION` for eventual CI testing
     * Add `.Rproj` file
+
+* Update `.github/` documents to latest community standards
+* Add `remotes` and `usethis` packages as dependencies
