@@ -1,0 +1,90 @@
+\documentclass{tufte-handout}
+
+\usepackage{xcolor}
+
+% set image attributes:
+\usepackage{graphicx}
+\graphicspath{ {images/} }
+
+% set hyperlink attributes
+\hypersetup{colorlinks}
+
+% create environment for bottom paragraph:
+\newenvironment{bottompar}{\par\vspace*{\fill}}{\clearpage}
+
+% ============================================================
+
+% define the title
+\title{SOC 4015/5050: Lecture-01 Functions}
+\author{Christopher Prener, Ph.D.}
+\date{Fall 2018}
+% ============================================================
+\begin{document}
+% ============================================================
+\maketitle % generates the title
+% ============================================================
+
+\vspace{5mm}
+\section{Packages}
+\begin{itemize}
+\item \texttt{base}
+\item \texttt{datasets}
+\item \texttt{cowsay}
+\item \texttt{remotes}
+\item \texttt{utils}
+\end{itemize}
+
+\vspace{5mm}
+\section{Packages}
+\subsection{Installing Packages from CRAN}
+\texttt{utils::}{\color{red}\texttt{install.package}}\texttt{("\textit{packageName}")}
+
+\vspace{3mm}
+\subsection{Installing Packages from GitHub}
+\texttt{remotes::}{\color{red}\texttt{install\_github}}\texttt{("\textit{githubUser}/\textit{repoName}")}
+
+\vspace{3mm}
+\subsection{Updating Packages}
+\texttt{utils::}{\color{red}\texttt{update.packages}}\texttt{()}
+
+\vspace{3mm}
+\subsection{Loading Packages}
+\texttt{base::}{\color{red}\texttt{library}}\texttt{("\textit{packageName}")}
+
+\vspace{5mm}
+\section{New Project}
+\textsf{File $\triangleright$ New Project... $\triangleright$ New Directory $\triangleright$ Empty Project}
+
+\vspace{5mm}
+\section{Checking Working Directory}
+\texttt{base::}{\color{red}\texttt{getwd}}\texttt{()}
+
+\vspace{5mm}
+\section{Assign Data to Object}
+\texttt{\textit{dataFrame}} {\color{red}\texttt{<-}} \texttt{\textit{dataSource}}
+
+\vspace{5mm}
+\section{List Variable Details}%
+\texttt{utils::}{\color{red}\texttt{str}}\texttt{(\textit{dataFrame})}
+
+\vspace{5mm}
+\section{Using \texttt{cowsay}}
+\subsection{List Animals}
+\texttt{base::}{\color{red}\texttt{sort}}\texttt{(base::}{\color{red}\texttt{names}}\texttt{(cowsay::animals))}
+
+\vspace{3mm}
+\subsection{Producing Animals}
+\texttt{cowsay::}{\color{red}\texttt{say}}\texttt{(\textit{what = "\textit{message}", by = "\textit{animal}"})}
+
+\vspace{5mm}
+\section{Getting Help}
+\subsection{Ope Help Files}
+{\color{red}\texttt{?}}\texttt{\textit{packageName}}
+\par \noindent {\color{red}\texttt{?}}\texttt{\textit{functionName}}
+
+\vspace{3mm}
+\subsection{Search Help Files}
+{\color{red}\texttt{??}}\texttt{"\textit{search string}"}
+
+% ============================================================
+\end{document}
