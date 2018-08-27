@@ -6,7 +6,7 @@ lecture-01 <img src="https://slu-soc5050.github.io/images/logo.png" align="right
 [![](https://img.shields.io/github/last-commit/slu-soc5050/lecture-01.svg)](https://github.com/slu-soc5050/lecture-01/commits/master)
 [![](https://img.shields.io/github/repo-size/slu-soc5050/lecture-01.svg)](https://github.com/slu-soc5050/lecture-01)
 [![Travis-CI Build Status](https://travis-ci.org/slu-soc5050/lecture-01.svg?branch=master)](https://travis-ci.org/slu-soc5050/lecture-01)
-[![AppVeyor Build Status](https://ci.appveyor.com/api/projects/status/github/chris-prener/lecture-01?branch=master&svg=true)](https://ci.appveyor.com/project/chris-prener/lecture-01)
+[![Appveyor Build Status](https://ci.appveyor.com/api/projects/status/va1ldyx7593mqpfb/branch/master?svg=true)](https://ci.appveyor.com/project/chris-prener/lecture-01/branch/master)
 
 This is the repository for Lecture 01 of the Saint Louis University course SOC 4015/5050 - Quantitative Analysis. This lecture introduces core concepts related to analysis development, reproducibility, and quantitative research.
 

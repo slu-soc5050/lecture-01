@@ -81,7 +81,7 @@ We've got two variables - one named `eruptions` and one named `waiting`.
 
 Next, we can use `View()` to open a spreadsheet like view of the data:
 
-```{r view-geyser}
+```r
 View(geyser)
 ```
 

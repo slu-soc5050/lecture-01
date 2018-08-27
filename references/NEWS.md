@@ -1,4 +1,8 @@
-# lecture-01 v18.03.00
+# lecture-01 v18.3.01
+
+* Removew `View()` from execution in example notebook
+
+# lecture-01 v18.3.00
 
 * Initial repo setup:
     * Add `.github/` directory with community documents
