@@ -13,6 +13,7 @@ Web: https://slu-soc5050.github.io
 URL: https://github.com/slu-soc5050/lecture-01
 BugReports: https://github.com/slu-soc5050/lecture-01/issues
 Imports:
+    cowsay,
     here,
     knitr,
     remotes,
