@@ -13,7 +13,10 @@ This is the repository for Lecture 01 of the Saint Louis University course SOC 4
 ### Lecture Objectives
 At the end of this lecture and its corresponding assignments, students should be able to:
 
-1.
+1. Locate key course resources including the website, syllabus, Slack, and GitHub
+2. Classify different variables based on their levels of measurement
+3. Describe what a workflow is and how it relates to the concept of analysis development
+4. Demonstrate basic operations in `R` including assigning data to objects, constructing basic functions, and getting help
 
 ### Lecture Resources
 
