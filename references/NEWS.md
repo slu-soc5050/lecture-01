@@ -1,4 +1,4 @@
-# lecture-01 v18.1.0.9000
+# lecture-01 v18.03.00
 
 * Initial repo setup:
     * Add `.github/` directory with community documents
@@ -12,3 +12,5 @@
 
 * Update `.github/` documents to latest community standards
 * Add `remotes` and `usethis` packages as dependencies
+
+* Update all `refereces/` and other materials for full release
